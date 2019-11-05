@@ -106,3 +106,21 @@ h1 {
     word-spacing: 1px;
 }
 
+/* Media queries */
+@media screen and (max-width: 768px) {
+    .container:before {
+       left: 3.5rem;
+    }
+    .timeline-block {
+       width: 100%;
+       margin-bottom: 2rem;
+    }
+    .timeline-block-right {
+       float: none;
+    }
+ 
+    .timeline-block-left {
+       float: none;
+       direction: ltr;
+    }
+ }
