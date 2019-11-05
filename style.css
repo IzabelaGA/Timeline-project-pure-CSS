@@ -63,3 +63,8 @@ h1 {
 .timeline-block-right {
     float: right;
 }
+/* Float left for left-side for dots and text with Right to left*/
+.timeline-block-left {
+    float: left;
+    direction: rtl;
+}
