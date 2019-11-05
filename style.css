@@ -87,3 +87,22 @@ h1 {
     width: 95%;
     padding: 0 1rem;
 }
+
+/* Style for beautify */
+.timeline-content h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1.6rem;
+    font-weight: 500
+}
+.timeline-content span {
+    font-size: 15px;
+    color: #a4a4a4;
+}
+.timeline-content p {
+    text-align: justify;
+    line-height: 1.6rem;
+    margin: 1rem;
+    word-spacing: 1px;
+}
+
