@@ -68,3 +68,7 @@ h1 {
     float: left;
     direction: rtl;
 }
+/* Left to right for text only */
+.timeline-block-left p {
+    direction: ltr;
+}
