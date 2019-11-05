@@ -64,16 +64,31 @@ h1 span{
     display: flex;
     justify-content: space-between;
     clear: both;
+/* Add styles for JS */
+    transition: all .5s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
 }
 /* Float right for placing right-side */
 .timeline-block-right {
     float: right;
+    /* for JS */
+    transform: translate(200px, 0);
 }
 /* Float left for left-side for dots and text with Right to left*/
 .timeline-block-left {
     float: left;
     direction: rtl;
+    /* for JS */
+    transform: translate(-200px, 0);
 }
+/* Show content */
+.timeline-block.show{
+    transform: none;
+    visibility: visible;
+    opacity: 1;
+}
+
 /* Left to right for text only */
 .timeline-block-left p {
     direction: ltr;
