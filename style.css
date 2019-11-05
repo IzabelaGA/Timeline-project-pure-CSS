@@ -59,7 +59,7 @@ h1 span{
     z-index: 1
 }
 /* create content "boxes" */
-.timeline-block {
+.container .timeline-block {
     width: calc(50% + .5rem);
     display: flex;
     justify-content: space-between;
@@ -83,7 +83,7 @@ h1 span{
     transform: translate(-200px, 0);
 }
 /* Show content */
-.timeline-block.show{
+.container .timeline-block.show{
     transform: none;
     visibility: visible;
     opacity: 1;
