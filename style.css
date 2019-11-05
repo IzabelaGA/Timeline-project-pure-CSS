@@ -82,3 +82,8 @@ h1 {
     margin-top: .7rem;
     z-index: 2;
 }
+/*Dots are dots through limited space for content  */
+.timeline-content {
+    width: 95%;
+    padding: 0 1rem;
+}
