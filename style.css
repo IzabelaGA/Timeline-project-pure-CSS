@@ -132,7 +132,7 @@ h1 span{
     .container:before {
        left: 3.5rem;
     }
-    .timeline-block {
+    .container .timeline-block {
        width: 100%;
        margin-bottom: 2rem;
     }
